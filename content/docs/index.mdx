@@ -1,13 +1,34 @@
 ---
-title: Hello World
-description: Your first document
+title: Documentation
+description: Welcome to the Selaura Client's Scripting Docs
+icon: BookOpen
 ---
 
-Welcome to the docs! You can start writing documents in `/content/docs`.
+Welcome to the Selaura Client Scripting Docs! Here you have you need to learn how to do scripting for Selaura Client. Do this to be able to create the most customizable scripts to truly enhance your experience! ✨
 
-## What is Next?
+import { 
+  BookIcon,
+  HeartIcon,
+  ShieldIcon
+} from 'lucide-react';
 
-<Cards>
-  <Card title="Learn more about Next.js" href="https://nextjs.org/docs" />
-  <Card title="Learn more about Fumadocs" href="https://fumadocs.vercel.app" />
+<Cards cols={2}>
+  <Card 
+    icon={<BookIcon />} 
+    title="Get Started" 
+    href="/" 
+    description="Guide to lead you through creating your first script" 
+  />
+  <Card 
+    icon={<ShieldIcon />} 
+    title="Join the Discord" 
+    href="https://selauraclient.com/discord" 
+    description="Join a community with Selaura Client enthusiasts" 
+  />
+  <Card 
+    icon={<HeartIcon />} 
+    title="Contribute" 
+    href="/" 
+    description="How to contribute to the project" 
+  />
 </Cards>
