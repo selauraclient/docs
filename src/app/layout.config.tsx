@@ -26,8 +26,9 @@ export const baseOptions: BaseLayoutProps = {
   links: [
     {
       text: 'Documentation',
-      url: '/docs',
+      url: '/',
       active: 'nested-url',
     },
   ],
+  githubUrl: "https://github.com/selauraclient/docs",
 };
